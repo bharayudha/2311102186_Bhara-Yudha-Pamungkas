@@ -110,6 +110,8 @@ int main()
     } 
     return 0;
 }
+```
+
 Program di atas merupakan contoh penggunaan tipe data primitif char dan float pada 
 sebuah program kalkulator sederhana yang dapat melakukan operasi matematika 
 dasar, yaitu penjumlahan, pengurangan, perkalian, dan pembagian. Program ini 
@@ -121,7 +123,7 @@ layar. Jika operator yang dimasukkan tidak sesuai dengan empat operator matemati
 dasar, maka program akan menampilkan pesan kesalahan "error!" pada layar.
 
 ### 2. Tipe Data Abstrak
-'''C++
+```C++
 #include<stdio.h> 
 using namespace std; 
 
@@ -161,7 +163,7 @@ mengenai data dua orang mahasiswa yang telah diinisialisasi sebelumnya, yaitu
 nama, alamat, dan umur.
 
 ### 3. Tipe Data Koleksi
-'''C++
+```C++
 #include<iostream> 
 using namespace std; 
 int main() 
@@ -177,6 +179,8 @@ cout << "Isi array Kedua: " << nilai[1]<<endl;
 cout << "Isi array Ketiiga: " << nilai[2]<<endl; 
 return 0; 
 }
+```
+
 Program menginisialisasi setiap elemen array dengan nilai tertentu menggunakan 
 operator "=" dan indeks elemen pada array. Selanjutnya, program mencetak nilai 
 dari tiga elemen pertama pada array menggunakan fungsi cout dengan format yang 
@@ -185,9 +189,9 @@ pertama pada array "nilai".
 
 ## Unguided
  
- ### 1. Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!
+### 1. Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!
 
-'''C++
+```C++
 #include <iostream> 
 using namespace std; 
 
@@ -205,6 +209,7 @@ int main() {
     cout << "Keliling lingkaran adalah: " << keliling << endl; 
     return 0; 
 }
+```
 Program di atas menggunakan tipe data primitif double untuk menyimpan nilai 
 jari-jari, luas, dan keliling. Variabel jari_jari digunakan untuk menyimpan nilai 
 jari-jari lingkaran yang dimasukkan oleh pengguna melalui cin. Untuk 
@@ -224,7 +229,7 @@ memungkinkan input dan output dari program.
 
 ### 2. Jelaskan fungsi dari class dan structur secara detail dan berikan contoh programnya!
 
-'''C++
+```C++
 #include<iostream> 
 using namespace std; 
 
@@ -249,11 +254,13 @@ int main() {
 
 return 0; 
 } 
+```
 Pada program di atas, kita membuat sebuah class bernama Mahasiswa yang memiliki tiga properti, yaitu name, age, dan address. Kemudian, kita juga menambahkan sebuah metode bernama display() yang digunakanuntuk 
 menampilkan properti dari objek Mahasiswa yang telah dibuat.
 
 Struct : Struct mirip dengan class dalam hal menyimpan data, namun berbeda dalam hal aksesibilitas dan penggunaannya. Struct hanya dapat menyimpan data, tanpa adanya fungsi yang terkait di dalamnya. Selain itu, semua properti dalam struct dianggap sebagai public, yang berarti dapat diakses langsung tanpa harus melalui metode. Berikut adalah contoh program sederhana untuk mengilustrasikan struct:
 
+```C++
 #include<iostream> 
 using namespace std; 
 
@@ -275,12 +282,13 @@ cout << "Alamat: " << mhs.address << endl;
 
 return 0; 
 }
+```
 
 Class : Class adalah tipe data khusus dalam bahasa pemrograman yang dapat menyimpan data dan fungsi di dalamnya. Class digunakan untuk mewakili objek yang terdiri dari beberapa properti (data) dan metode (fungsi) yang digunakan untuk memanipulasi data tersebut
 
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan array dengan map.
 
-'''C++
+```C++
  #include <iostream> 
 #include <map> 
 
@@ -299,6 +307,7 @@ int main() {
 
     return 0; 
 } 
+```
 Program di atas menggunakan fungsi map dari library <map> pada C++. map 
 adalah tipe data asosiatif yang memetakan nilai kunci ke nilai data. Pada 
 program di atas, kita membuat variabel umur yang berisi map dari string (nama) 
