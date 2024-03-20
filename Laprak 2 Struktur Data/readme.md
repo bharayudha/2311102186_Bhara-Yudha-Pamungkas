@@ -1,6 +1,6 @@
 # <h1 align="center">Laporan Praktikum Modul 2 - Array</h1>
 <p align="center">Bhara Yudha Pamungkas</p>
-<p align="center">2311102187 / 11-E-IF</p>
+<p align="center">2311102186 / IF-11-E</p>
 
 
 ## Dasar Teori
