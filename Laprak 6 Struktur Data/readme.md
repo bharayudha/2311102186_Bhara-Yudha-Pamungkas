@@ -127,7 +127,8 @@ int main()
 }
 ```
 ### Screenshot
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/2a781cce-45e4-42dc-a6c3-8f8c6fee4559)
+![1](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/0f0fc2b9-a59b-47fc-b9ab-1b6d5b9cbe78)
+
 
 
 ## Unguided 
@@ -184,7 +185,8 @@ int main() {
 
 ```
 ### Screenshot
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/f8990568-a2df-41a9-ab65-10a407b40ce6)
+![WhatsApp Image 2024-05-08 at 20 31 50_9e46fd69](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/d1d7551d-595b-4cc8-b2e9-1e9c1abaad23)
+
 
 
 ### 2. Buatlah program untuk melakukan pembalikan terhadap kalimat menggunakan stack dengan minimal 3 kata. Jelaskan output program dan source codenya beserta operasi/fungsi yang dibuat?
@@ -244,7 +246,8 @@ int main() { // Fungsi utama
 ```
 
 ### Screenshot
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/b12e75c2-a0f3-4e39-ae28-43ee7443775b)
+![WhatsApp Image 2024-05-08 at 20 10 06_f4c1c8d3](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/6f4752f7-62ae-4d56-90cc-e138bdae23c3)
+
 
 ## Kesimpulan 
 
