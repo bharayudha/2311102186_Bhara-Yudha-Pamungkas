@@ -4,11 +4,14 @@
 
 ## Dasar Teori
 <p align ="justify"> 
-Queue adalah struktur data yang mengikuti prinsip "masuk pertama keluar pertama" (First In First Out/FIFO). Data dimasukkan ke dalam queue melalui satu ujung dan dikeluarkan melalui ujung yang lain. Ini berarti elemen pertama yang dimasukkan ke dalam queue akan menjadi elemen pertama yang dikeluarkan [1].
+Queue adalah struktur data yang mengikuti prinsip first-in-first-out (FIFO).
+Data memasuki antrian di satu ujung dan keluar di ujung lainnya. Artinya item pertama yang dimasukkan ke dalam antrian juga merupakan item pertama yang dihapus [1].
 
-Algoritma queue sering digunakan dalam berbagai aplikasi dan teknologi untuk mengatur antrian dan proses data secara berurutan. Dalam konteks aplikasi pemesanan obat berbasis mobile di Apotek Aruba Farma Depok, penerapan algoritma queue membantu meningkatkan efisiensi dan kualitas pelayanan dengan memastikan pasien mendapatkan obat sesuai urutan antrian mereka [1]
+Algoritma antrian banyak digunakan dalam berbagai aplikasi dan teknologi untuk mengatur antrian dan memproses data secara berurutan.
+Dalam konteks aplikasi pemesanan obat berbasis seluler di Apotek Aruba Farma Depok, penerapan algoritma antrian membantu meningkatkan efisiensi dan kualitas layanan dengan memastikan bahwa pasien menerima obat sesuai urutan antriannya [1].
 
-Dengan menggunakan algoritma queue, sistem antrian dapat diatur dengan baik sehingga pasien dapat mengetahui ketersediaan obat dan nomor antrian mereka tanpa harus datang terlebih dahulu ke apotek. Hal ini membantu mengurangi waktu tunggu pasien dan meningkatkan pengalaman pelayanan di apotek [1].
+Menggunakan antrian algoritma, Anda dapat mengelola sistem antrian  dengan lebih baik sehingga pasien  mengetahui ketersediaan obat dan nomor antriannya tanpa harus datang ke apotek terlebih dahulu.
+Hal ini  mengurangi waktu tunggu pasien dan meningkatkan pengalaman pelayanan di apotek [1].
 </p>
 
 
@@ -136,7 +139,8 @@ int main()
 
 
 ### Screenshot
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/e11e6c0b-8c9b-4c19-9f0b-c5c24f23ec4d)
+![Screenshot (252)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/f1f686fd-7ef4-4cb7-8336-5ba79048d900)
+
 
 ## Unguided
 
@@ -235,7 +239,8 @@ int main() {
 ```
 
 ### Screenshot
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/b9a76f01-35c1-4d07-9e9c-c727e3ee9232)
+![Screenshot (253)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/211b112b-ee49-42e6-ad82-66a4ff911acf)
+
 
 
 ### 2. Dari nomor 1 buatlah konsep antri dengan atribut Nama mahasiswa dan NIM Mahasiswa
@@ -347,19 +352,20 @@ int main()
 }
 ```
 ### Screenshot
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/9430a651-1b87-4ef4-bfbb-5eb785e2ff08)
+![Screenshot (254)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/ac51395a-3fe3-43ec-8a68-2c0148884c63)
+
 
 ## Kesimpulan 
 <p align = "justify">
-Dalam konteks penerapan algoritma queue pada aplikasi pemesanan obat berbasis mobile di Apotek Aruba Farma Depok, dapat disimpulkan bahwa:
+Sehubungan dengan penerapan algoritma antrian pada aplikasi pemesanan obat berbasis mobile  Apotek Aruba Farma Depok, maka dapat diperhatikan hal-hal sebagai berikut
 
-1. **Efisiensi Pelayanan**: Penggunaan algoritma queue membantu meningkatkan efisiensi pelayanan dengan mengatur antrian pasien secara berurutan, sehingga meminimalkan waktu tunggu dan mempercepat proses pemesanan obat [1].
+1. **Efisiensi Pelayanan**: Penggunaan algoritma antrian berkontribusi terhadap: Antrian pasien yang berurutan meningkatkan efisiensi layanan, meminimalkan waktu tunggu, dan mempercepat proses pemesanan obat [1].
 
-2. **Ketersediaan Obat**: Pasien dapat dengan mudah mengetahui ketersediaan obat yang dibutuhkan melalui aplikasi mobile tanpa harus datang langsung ke apotek, sehingga memudahkan proses pemesanan dan pengambilan obat [1].
+2. **Ketersediaan Obat**: Pasien dapat dengan mudah mengecek ketersediaan obat yang dibutuhkan melalui aplikasi mobile tanpa harus datang langsung ke apotek sehingga  proses pemesanan dan pengambilan obat akan menjadi lebih mudah [1].
 
-3. **Peningkatan Pengalaman Pasien**: Dengan adanya aplikasi mobile berbasis queue, pasien merasa lebih terbantu dan terlayani dengan baik, sehingga meningkatkan kualitas pelayanan di Apotek Aruba Farma Depok [1].
+3. **Peningkatan pengalaman pasien**: Dengan  aplikasi seluler berbasis antrian , pasien merasakan dukungan dan layanan yang lebih  baik, sehingga meningkatkan kualitas layanan di Apotek Aruba Farma Depok [1].
 
-Dengan demikian, penerapan algoritma queue pada aplikasi pemesanan obat berbasis mobile memberikan manfaat yang signifikan dalam meningkatkan efisiensi, ketersediaan obat, dan pengalaman pasien dalam mendapatkan layanan farmasi.
+Oleh karena itu, penerapan algoritma antrian pada aplikasi pemesanan obat secara mobile memberikan manfaat yang signifikan dalam meningkatkan efisiensi, ketersediaan obat, dan pengalaman pasien dalam memanfaatkan layanan obat.
 </p>
 
 ## Daftar Pustaka
