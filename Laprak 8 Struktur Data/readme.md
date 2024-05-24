@@ -4,14 +4,27 @@
 
 ## Dasar Teori
 <p align = "justify">    
-Binary Search merupakan metode pencarian yang digunakan pada data yang sudah terurut secara urut. Algoritma ini bekerja dengan membagi data menjadi dua bagian, kemudian memeriksa elemen tengahnya untuk menentukan apakah data yang dicari berada di bagian kiri atau kanan. Proses ini berulang hingga data yang dicari ditemukan [1]. Prinsip dasar dari Binary Search adalah "Divide and Conquer", di mana ruang pencarian data dibagi menjadi bagian-bagian kecil untuk mempercepat proses pencarian. Kelebihan dari Binary Search adalah efisiensi dalam mencari data dalam jumlah besar dengan menggunakan sedikit beban komputasi. Algoritma ini cocok digunakan pada data yang sudah terurut [1].
+Binary Search adalah metode pencarian  data yang diurutkan secara berurutan.
+Algoritma ini bekerja dengan cara membagi data menjadi dua bagian kemudian memeriksa elemen tengah untuk menentukan apakah data yang dicari ada di sebelah kiri atau di sebelah kanan.
+Proses ini berulang hingga data yang dicari ditemukan [1].
     
-Regular Search Expression (REGEX) adalah metode pencarian string yang tidak hanya mencari string secara spesifik, tetapi juga berdasarkan pola dari string tersebut. Algoritma ini memungkinkan pencarian berdasarkan pola tertentu dalam data. REGEX berbasis pada konsep Finite Automaton, di mana pencarian dilakukan dengan membentuk keadaan/state dan grafik berarah yang merepresentasikan karakter-karakter dalam string yang dicari [1]. Kelebihan dari Regular Search Expression adalah kemampuannya untuk mencari data berdasarkan pola tertentu tanpa perlu data yang sudah diurutkan. Algoritma ini efektif dalam mengeksekusi setiap karakter dengan waktu konstan. Dengan pemahaman dasar teori dari Binary Search dan Regular Search Expression, pengguna dapat memilih metode pencarian yang sesuai dengan kebutuhan dan karakteristik data yang akan dicari [1].
+Prinsip dasar pencarian biner adalah “divide and Conquer” yaitu mempercepat proses pencarian dengan membagi ruang pencarian data  menjadi bagian-bagian yang lebih kecil.
+Keuntungan dari pencarian biner adalah dapat secara efisien mencari data dalam jumlah besar dengan jumlah perhitungan yang sedikit.
+Algoritma ini cocok digunakan dengan data yang diurutkan [1].
+
+Regular Search [Removed]REGEX) merupakan metode pencarian string yang tidak hanya mencari string tertentu, namun juga mencari berdasarkan pola pada string tersebut.
+Algoritme ini memungkinkan pencarian berdasarkan pola tertentu dalam data.
+REGEX didasarkan pada konsep finite automata, dimana pencarian dilakukan dengan membentuk  grafik berarah dengan keadaan yang mewakili karakter dalam string pencarian [1].
+
+Keuntungan ekspresi pencarian kanonik adalah Anda dapat mencari data berdasarkan pola tertentu tanpa harus mengurutkan data.
+Algoritma ini secara efektif  mengeksekusi setiap karakter dalam jangka waktu yang tetap.
+Dengan memahami teori dasar pencarian biner dan ekspresi pencarian reguler, Anda dapat memilih metode pencarian  sesuai dengan kebutuhan dan karakteristik data yang akan dicari [1].
+
 </p>
 
 ## Guided
 
-### Guided-1
+### Guided 1
 Buatlah sebuah project dengan menggunakan sequential search sederhana untuk melakukan pencarian data.
 
 ```C++
@@ -46,11 +59,12 @@ int main()
     return 0;
 }
 ```
-### Screenshot Guided-1
+### Screenshot Guided 1
+![Screenshot (255)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/1a194b37-a415-4cd2-8a62-84d4d3b7fec6)
 
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/61eb46ac-2baf-4614-8084-fe97c095b370)
 
-### Guided-2
+
+### Guided 2
 Buatlah sebuah project untuk melakukan pencarian data dengan menggunakan Binary Search.
 
 ```C++
@@ -131,9 +145,10 @@ int main()
 }
 ```
 
-### Screenshot Guided-2
+### Screenshot Guided 2
+![Screenshot (256)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/8c34f78f-544b-4c0a-8fbe-5441bcbee0b1)
 
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/84bbde1b-e87c-40c2-9261-3418fb786584)
+
 
 ## Unguided 
 
@@ -201,9 +216,10 @@ int main() {
 
 ```
 
-### Screenshot Unguided-1
+### Screenshot Unguided 1
+![Screenshot (257)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/1766ba53-a4b9-4a10-b195-e55226875c38)
 
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/9c3be4e3-0107-4b5e-a622-84cc2faae6ce)
+
 
 ### Buatlah sebuah program yang dapat menghitung banyaknya huruf vocal dalam sebuah kalimat menggunakan algoritma searching!
 
@@ -261,9 +277,10 @@ int main()
 
 ```
 
-### Screenshot Unguided-2
+### Screenshot Unguided 2
+![Screenshot (258)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/ca755006-b882-4784-963c-23a1d7401b1d)
 
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/5ea6277d-d9c6-447e-b1de-0fbe2f441fb6)
+
 
 ### Diketahui data = 9, 4, 1, 4, 7, 10, 5, 4, 12, 4. Hitunglah berapa banyak angka 4 dengan menggunakan algoritma Sequential Search!
 
@@ -296,15 +313,18 @@ int main() {
 ```
 
 
-### Screenshot Unguided-3
+### Screenshot Unguided 3
+![Screenshot (259)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/2685c1ca-fd23-47bb-9624-c67e9a7da8f9)
 
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/ef311bdc-96d2-426e-bd47-9323ef18fd3d)
+
 
 
 ## kesimpulan
 
 <p align = "justify">
-Dari hasil analisis perbandingan antara algoritma Binary Search dan Regular Search Expression dalam pencarian data, dapat diambil dari Kedua algoritma memiliki kelebihan dan kekurangan masing-masing, binary Search cocok untuk pencarian data besar dan terurut, sementara Regular Search Expression lebih fleksibel dalam pencarian berdasarkan pola. Pemilihan algoritma pencarian harus disesuaikan dengan karakteristik data dan kebutuhan pencarian yang spesifik. Dari perbandingan antara algoritma Binary Search dan Regular Search Expression, dapat disimpulkan bahwa Binary Search efisien untuk pencarian data besar dan terurut, sementara Regular Search Expression lebih fleksibel dalam pencarian berdasarkan pola. Pemilihan algoritma pencarian harus disesuaikan dengan karakteristik data dan kebutuhan pencarian yang spesifik [1].
+Dari hasil analisis perbandingan  algoritma “binary search” dan algoritma “canonical search formula” dalam pengambilan data, dapat disimpulkan bahwa kedua algoritma tersebut mempunyai kelebihan dan kekurangan masing-masing.Pencarian biner cocok untuk mencari data yang besar dan terurut. Sebaliknya, ekspresi penelusuran reguler lebih fleksibel saat menelusuri berdasarkan pola.
+Pemilihan algoritma pencarian harus disesuaikan dengan karakteristik data dan kebutuhan pencarian tertentu.
+Perbandingan algoritma pencarian biner dan pencarian kanonik menyimpulkan bahwa pencarian biner efisien untuk mencari data terurut berskala besar, sedangkan pencarian kanonik lebih fleksibel untuk pencarian berbasis pola. Pemilihan algoritma pencarian harus disesuaikan dengan karakteristik data dan kebutuhan pencarian tertentu [1]
 </p>
 
 ## Daftar Pustaka
