@@ -77,8 +77,9 @@ int main(){
 ```
 
 ### Screenshot
+![WhatsApp Image 2024-05-28 at 23 42 48_e3c9680c](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/e81b9c88-6eab-400d-bf2d-dbb40e0e39fd)
 
-![WhatsApp Image 2024-05-27 at 19 59 11_2ded8012](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/91e909be-25ae-46a0-9cf8-bb46ca46eac8)
+
 
 ## Guided 2 Tree
 ```C++
@@ -477,12 +478,14 @@ int main()
 ```
 
 ### Screenshot
+![WhatsApp Image 2024-05-28 at 23 44 47_413b4dbe](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/ba5dde39-11f9-4693-a45b-3c4e88808453)
+![WhatsApp Image 2024-05-28 at 23 44 47_a4b7087b](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/c35e1d14-bac8-482d-8693-3783fe0a290f)
 
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/df2b42dc-2482-4a99-a36b-546a3e79ee0b)
+
 
 ## Unguided 
 
-### Unguided 1: Buatlah program graph dengan menggunakan inputan user untuk menghitung jarak dari sebuah kota ke kota lainnya.
+### Unguided 1 Buatlah program graph dengan menggunakan inputan user untuk menghitung jarak dari sebuah kota ke kota lainnya.
 ```C++
 #include <iostream>
 #include <vector>
@@ -498,7 +501,7 @@ struct City
     map<string, int> connections;
 };
 // Fungsi untuk meminta pengguna memasukkan nama simpul (kota)
-void inputKota_2311102197(int numKota, vector<City> &Kota)
+void inputKota_2311102186(int numKota, vector<City> &Kota)
 {
     cout << "Masukan nama Simpul: " << endl;
     for (int i = 0; i < numKota; i++)
@@ -561,7 +564,7 @@ int main()
 
     vector<City> Kota(numKota);
 
-    inputKota_2311102197(numKota, Kota);
+    inputKota_2311102186(numKota, Kota);
     inputConnections(numKota, Kota);
     printConnectionTable(numKota, Kota);
 
@@ -572,7 +575,7 @@ int main()
 
 ![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/24f01aee-cceb-49fb-a688-c458bb083124)
 
-### Unguided 2: Modifikasi guided tree diatas dengan program menu menggunakan input data tree dari user dan berikan fungsi tambahan untuk menampilkan node child dan descendant dari node yang diinput kan!
+### Unguided 2 Modifikasi guided tree diatas dengan program menu menggunakan input data tree dari user dan berikan fungsi tambahan untuk menampilkan node child dan descendant dari node yang diinput kan!
 ```C++
 #include <iostream>
 #include <vector>
@@ -607,7 +610,7 @@ Pohon *newPohon(char data) {
     return node;
 }
 
-void buatNode_2311102197(char data) {
+void buatNode_2311102186(char data) {
     if (isEmpty()) {
         root = newPohon(data);
         cout << "\nNode " << data << " berhasil dibuat menjadi root." << endl;
@@ -869,7 +872,7 @@ int main() {
             case 1:
                 cout << "Masukkan data node: ";
                 cin >> data;
-                buatNode_2311102197(data);
+                buatNode_2311102186(data);
                 break;
             case 2:
                 cout << "Masukkan data node: ";
@@ -1023,18 +1026,18 @@ int main() {
 <p align="justify">
 
   <strong> Tree: </strong>
-- Pohon adalah struktur data hierarkis yang terdiri dari simpul yang saling terhubung dengan satu simpul induk dan satu atau lebih simpul anak.
-- Pohon digunakan dalam pemrograman untuk representasi data terstruktur dan operasi pencarian efisien.
-- Beberapa jenis pohon yang umum digunakan termasuk pohon pencarian biner, pohon merah-hitam, pohon B, dan pohon heap.
-- Operasi pada pohon meliputi penelusuran, pencarian, penambahan, penghapusan, dan rotasi.
+- Pohon adalah struktur data hierarki yang terdiri dari node yang saling berhubungan dengan node induk dan satu atau lebih node anak.
+– Pohon digunakan dalam pemrograman untuk representasi data terstruktur dan operasi pencarian yang efisien.
+– Jenis pohon yang umum digunakan meliputi pohon pencarian biner, pohon merah-hitam, pohon B, dan pohon heap.
+- Operasi pada pohon meliputi melintasi, mencari, menambah, menghapus, dan memutar.
 
 <strong> Graph: </strong> 
-- Graf adalah struktur data yang terdiri dari simpul yang terhubung oleh sisi.
-- Graf digunakan dalam pemrograman untuk merepresentasikan hubungan antara entitas, seperti jaringan sosial, rute perjalanan, dan sirkuit elektronik.
-- Algoritma graf digunakan untuk berbagai tujuan, seperti pencarian jalur terpendek, pencarian terhubung, pencarian lintasan, dan alur maksimum.
-- Graf dapat berupa graf berarah (directed graph) atau graf tak berarah (undirected graph), tergantung pada hubungan antar simpulnya.
+- Graf adalah struktur data yang terdiri dari simpul-simpul yang dihubungkan oleh sisi-sisinya.
+– Diagram digunakan dalam pemrograman untuk mewakili hubungan antar entitas seperti jaringan sosial, rute perjalanan, dan sirkuit elektronik.
+– Algoritme grafik digunakan untuk berbagai tujuan, termasuk: Contoh: pencarian rute terpendek, pencarian rute koneksi, pencarian rute, laju aliran maksimum, dll.
+- Grafik dapat  berarah  atau tidak berarah  tergantung pada hubungan antar simpul.
 
-Dengan pemahaman tentang Tree dan Graphs, pengembang dapat memilih struktur data dan algoritma yang sesuai untuk menyelesaikan berbagai masalah pemrograman yang melibatkan hierarki data, hubungan antar entitas, dan optimisasi algoritma. Pemahaman yang baik tentang konsep ini akan membantu dalam pengembangan solusi yang efisien dan efektif dalam pemrograman [1].
+Pemahaman pohon dan diagram memungkinkan pengembang  memilih struktur data dan algoritma yang sesuai untuk menyelesaikan berbagai masalah pemrograman seperti hierarki data, hubungan antar entitas, dan optimalisasi algoritma.Pemahaman yang baik tentang konsep ini akan membantu Anda mengembangkan solusi pemrograman yang efisien dan efektif  [1].
 
 </p>
 
