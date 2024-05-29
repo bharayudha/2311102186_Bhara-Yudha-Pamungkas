@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul-9 Tree & Graph</h1>
+# <h1 align="center">Laporan Praktikum Modul 9 Tree & Graph</h1>
 <p align="center">Bhara Yudha Pamungkas</p>
 <p align="center">2311102186</p>
 
