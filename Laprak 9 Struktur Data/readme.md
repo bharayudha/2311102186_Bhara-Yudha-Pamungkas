@@ -30,7 +30,9 @@ Dalam konteks pemrograman, Tree (Pohon) dan Graphs (Graf) memiliki peran penting
 Dengan pemahaman dasar tentang Tree dan Graphs dalam pemrograman, pengembang dapat menggunakan struktur data dan algoritma yang sesuai untuk menyelesaikan berbagai masalah pemrograman yang melibatkan struktur hierarkis dan hubungan antar entitas [1].
 </p>
 
-## Guided 1 Graph
+## Guided
+### Guided 1 
+Graph
 ```C++
 #include <iostream> 
 #include <iomanip> 
@@ -81,7 +83,8 @@ int main(){
 
 
 
-## Guided 2 Tree
+### Guided 2 
+Tree
 ```C++
 #include <iostream>
 using namespace std;
@@ -485,7 +488,8 @@ int main()
 
 ## Unguided 
 
-### Unguided 1 Buatlah program graph dengan menggunakan inputan user untuk menghitung jarak dari sebuah kota ke kota lainnya.
+### Unguided 1 
+Buatlah program graph dengan menggunakan inputan user untuk menghitung jarak dari sebuah kota ke kota lainnya.
 ```C++
 #include <iostream>
 #include <vector>
@@ -572,10 +576,12 @@ int main()
 }
 ```
 ### Screenshot 
+![Screenshot (260)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/b7d21f27-79b3-4cde-b2a5-3a0d90912127)
 
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/24f01aee-cceb-49fb-a688-c458bb083124)
 
-### Unguided 2 Modifikasi guided tree diatas dengan program menu menggunakan input data tree dari user dan berikan fungsi tambahan untuk menampilkan node child dan descendant dari node yang diinput kan!
+
+### Unguided 2
+Modifikasi guided tree diatas dengan program menu menggunakan input data tree dari user dan berikan fungsi tambahan untuk menampilkan node child dan descendant dari node yang diinput kan!
 ```C++
 #include <iostream>
 #include <vector>
@@ -1019,8 +1025,9 @@ int main() {
 ```
 
 ### Screenshot
+![Screenshot (261)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/cbf1e5a4-430d-478e-9f55-38cc779b7c76)
 
-![WhatsApp Image 2024-05-27 at 19 57 12_bdb39fc9](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/4c28e59a-7a2d-4822-9b5c-deafe772078c)
+
 
 ## Kesimpulan 
 <p align="justify">
