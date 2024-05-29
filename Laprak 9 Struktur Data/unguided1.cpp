@@ -12,7 +12,7 @@ struct City {
 };
 
 // Fungsi untuk meminta pengguna memasukkan nama simpul (kota)
-void inputKota_2311102197(int numKota, vector<City>& Kota) {
+void inputKota_2311102186(int numKota, vector<City>& Kota) {
   cout << "Masukan nama Simpul: " << endl;
   for (int i = 0; i < numKota; i++) {
     cout << "Simpul " << i + 1 << ": ";
@@ -70,7 +70,7 @@ int main() {
 
   vector<City> Kota(numKota);
 
-  inputKota_2311102197(numKota, Kota);
+  inputKota_2311102186(numKota, Kota);
   inputConnections(numKota, Kota);
   printConnectionTable(numKota, Kota);
 
