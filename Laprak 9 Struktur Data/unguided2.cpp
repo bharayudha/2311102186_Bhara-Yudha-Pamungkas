@@ -31,7 +31,7 @@ Pohon *newPohon(char data) {
     return node;
 }
 
-void buatNode_2311102197(char data) {
+void buatNode_2311102186(char data) {
     if (isEmpty()) {
         root = newPohon(data);
         cout << "\nNode " << data << " berhasil dibuat menjadi root." << endl;
@@ -293,7 +293,7 @@ int main() {
             case 1:
                 cout << "Masukkan data node: ";
                 cin >> data;
-                buatNode_2311102197(data);
+                buatNode_2311102186(data);
                 break;
             case 2:
                 cout << "Masukkan data node: ";
