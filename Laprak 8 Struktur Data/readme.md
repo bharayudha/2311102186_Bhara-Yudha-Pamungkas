@@ -59,8 +59,8 @@ int main()
     return 0;
 }
 ```
-### Screenshot Guided 1
-![Screenshot (255)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/1a194b37-a415-4cd2-8a62-84d4d3b7fec6)
+### Screenshot Output
+![Screenshot (282)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/b05c0db0-ba7c-4623-ac75-eb810252fe96)
 
 
 
@@ -145,14 +145,16 @@ int main()
 }
 ```
 
-### Screenshot Guided 2
-![Screenshot (256)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/8c34f78f-544b-4c0a-8fbe-5441bcbee0b1)
+### Screenshot Output
+![Screenshot (284)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/7c512915-1eb3-472e-ac85-f05483dd6a6f)
+
 
 
 
 ## Unguided 
 
-### Buatlah sebuah program untuk mencari sebuah huruf pada sebuah kalimat yang sudah di input dengan menggunakan Binary Search!
+### Unguided 1
+Buatlah sebuah program untuk mencari sebuah huruf pada sebuah kalimat yang sudah di input dengan menggunakan Binary Search!
 
 ```C++
 #include <iostream>
@@ -216,12 +218,15 @@ int main() {
 
 ```
 
-### Screenshot Unguided 1
-![Screenshot (257)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/1766ba53-a4b9-4a10-b195-e55226875c38)
+### Screenshot Output
+![Screenshot (279)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/9a753413-b10f-4206-ad42-2e1223f4f94a)
+
+### Deskripsi Program
+Program ini memberikan contoh implementasi algoritma Binary Search dalam pencarian keberadaan sebuah huruf dalam sebuah kalimat. Algoritma Binary Search secara efisien membagi rentang pencarian menjadi setengah pada setiap iterasi, sehingga mengurangi jumlah langkah yang diperlukan untuk menemukan hasil pencarian. Dengan demikian, program ini mengilustrasikan penggunaan Binary Search untuk mencari elemen dalam data terurut secara efisien.
 
 
-
-### Buatlah sebuah program yang dapat menghitung banyaknya huruf vocal dalam sebuah kalimat menggunakan algoritma searching!
+### Unguided 2
+Buatlah sebuah program yang dapat menghitung banyaknya huruf vocal dalam sebuah kalimat menggunakan algoritma searching!
 
 ```C++
 #include <iostream>
@@ -277,12 +282,15 @@ int main()
 
 ```
 
-### Screenshot Unguided 2
-![Screenshot (258)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/ca755006-b882-4784-963c-23a1d7401b1d)
+### Screenshot Output
+![Screenshot (280)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/14f273d9-87bf-4276-9811-b02f078a045b)
+
+### Deskripsi Program
+Program ini memberikan contoh penggunaan fungsi untuk menghitung jumlah huruf vokal dalam sebuah kalimat. Dengan menggunakan loop dan pengujian kondisi, program secara efisien dapat mengidentifikasi huruf vokal dan menghitung jumlahnya. Program ini menunjukkan bagaimana penggunaan string dan loop dapat digunakan untuk melakukan operasi sederhana pada teks.
 
 
-
-### Diketahui data = 9, 4, 1, 4, 7, 10, 5, 4, 12, 4. Hitunglah berapa banyak angka 4 dengan menggunakan algoritma Sequential Search!
+### Unguided 3
+Diketahui data = 9, 4, 1, 4, 7, 10, 5, 4, 12, 4. Hitunglah berapa banyak angka 4 dengan menggunakan algoritma Sequential Search!
 
 ```C++
 #include <iostream>
@@ -313,18 +321,23 @@ int main() {
 ```
 
 
-### Screenshot Unguided 3
-![Screenshot (259)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/2685c1ca-fd23-47bb-9624-c67e9a7da8f9)
+### Screenshot Output
+![Screenshot (281)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/a878a862-3595-4b5a-bfc5-d52b06af2fab)
 
 
+### Deskripsi Program
+Program ini memberikan contoh sederhana dari algoritma pencarian sekuensial (Sequential Search) untuk menghitung jumlah kemunculan suatu angka dalam sebuah array. Meskipun sederhana, algoritma ini efektif untuk mencari elemen dalam dataset yang tidak diurutkan. Dengan menggunakan loop dan kondisi, program ini secara efisien menghitung jumlah kemunculan angka yang dicari dalam array.
 
 
 ## kesimpulan
 
 <p align = "justify">
-Dari hasil analisis perbandingan  algoritma “binary search” dan algoritma “canonical search formula” dalam pengambilan data, dapat disimpulkan bahwa kedua algoritma tersebut mempunyai kelebihan dan kekurangan masing-masing.Pencarian biner cocok untuk mencari data yang besar dan terurut. Sebaliknya, ekspresi penelusuran reguler lebih fleksibel saat menelusuri berdasarkan pola.
-Pemilihan algoritma pencarian harus disesuaikan dengan karakteristik data dan kebutuhan pencarian tertentu.
-Perbandingan algoritma pencarian biner dan pencarian kanonik menyimpulkan bahwa pencarian biner efisien untuk mencari data terurut berskala besar, sedangkan pencarian kanonik lebih fleksibel untuk pencarian berbasis pola. Pemilihan algoritma pencarian harus disesuaikan dengan karakteristik data dan kebutuhan pencarian tertentu [1]
+Dari hasil analisis perbandingan algoritma “binary search” dan  “canonical search formula” dalam pengambilan data, dapat disimpulkan bahwa kedua algoritma tersebut mempunyai kelebihan dan kekurangan masing-masing.
+Pencarian biner cocok untuk mencari data yang besar dan terurut.
+Sebaliknya, ekspresi penelusuran kanonik lebih fleksibel saat mencari pola.
+Pilihan algoritma pencarian harus disesuaikan dengan karakteristik data dan kebutuhan pencarian spesifik.
+Membandingkan penelusuran biner dan algoritme penelusuran kanonik, kami menyimpulkan bahwa penelusuran biner efisien untuk mencari data terurut berskala besar, sedangkan penelusuran kanonik lebih fleksibel untuk penelusuran berbasis pola.
+Pemilihan algoritma pencarian harus disesuaikan dengan karakteristik data dan kebutuhan pencarian tertentu [1]
 </p>
 
 ## Daftar Pustaka
