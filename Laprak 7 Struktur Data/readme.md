@@ -138,7 +138,7 @@ int main()
 ```
 
 
-### Screenshot
+### Screenshot Output
 ![Screenshot (276)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/ee6b7807-2f8a-417c-b4b6-8fbcfd6c038f)
 
 
@@ -239,7 +239,7 @@ int main() {
 }
 ```
 
-### Screenshot
+### Screenshot Output
 ![Screenshot (277)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/a9578e26-efd8-4de0-ae01-986f2d4f404e)
 
 
@@ -356,7 +356,7 @@ int main()
     return 0;
 }
 ```
-### Screenshot
+### Screenshot Output
 ![Screenshot (278)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/b30649d3-8f5d-4594-91dc-5e49e6d3c3a2)
 
 ### Deskripsi Program
@@ -364,11 +364,10 @@ Program ini menunjukkan cara mengelola antrian mahasiswa menggunakan linked list
 
 
 ## Kesimpulan 
-<p align = "justify">
 Queue merupakan salah satu struktur data yang digunakan untuk menyimpan sekumpulan elemen dengan prinsip FIFO (First In, First Out), mirip dengan antrian dalam kehidupan sehari-hari di mana elemen yang pertama dimasukkan ke dalam queue akan menjadi yang pertama pula untuk dikeluarkan.
-
 Dengan memahami konsep dasar dan penggunaan queue dalam bahasa C++, pengembang dapat membuat kode yang lebih efisien dan mudah dipahami saat bekerja dengan struktur data queue dalam pengembangan perangkat lunak.
 </p>
+
 
 ## Daftar Pustaka
 
