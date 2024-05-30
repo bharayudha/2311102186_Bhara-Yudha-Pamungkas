@@ -128,7 +128,7 @@ int main()
     return 0;
 }
 ```
-### Screenshot
+### Screenshot Output
 ![Screenshot (273)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/86171838-8e91-45ce-9779-1a14378c7ac6)
 
 
@@ -136,7 +136,8 @@ int main()
 
 ## Unguided 
 
-### 1. Buatlah program untuk menentukan apakah kalimat tersebut yang diinputkan dalam program stack adalah palindrom/tidak. Palindrom kalimat yang dibaca dari depan dan belakang sama. Jelaskan bagaimana cara kerja programnya.
+### Unguided 1
+Buatlah program untuk menentukan apakah kalimat tersebut yang diinputkan dalam program stack adalah palindrom/tidak. Palindrom kalimat yang dibaca dari depan dan belakang sama. Jelaskan bagaimana cara kerja programnya.
 
 ```C++
 #include <iostream>
@@ -190,11 +191,13 @@ int main() {
 ### Screenshot Output
 ![Screenshot (274)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/6f3fbd12-88c1-4735-a0dd-2a79c1b8a65c)
 
-## Deskripsi Program
+### Deskripsi Program
 Program ini mengecek apakah sebuah string adalah palindrome menggunakan stack. Setelah menerima input string dari pengguna, program memasukkan setiap karakter string tersebut ke dalam stack. Kemudian, program mengambil karakter dari stack satu per satu untuk membentuk string terbalik. Terakhir, program membandingkan string asli dengan string terbalik dan menampilkan hasil apakah string tersebut adalah palindrome (sama jika dibaca dari depan atau belakang) atau bukan.
 
 
-### 2. Buatlah program untuk melakukan pembalikan terhadap kalimat menggunakan stack dengan minimal 3 kata. Jelaskan output program dan source codenya beserta operasi/fungsi yang dibuat?
+
+### Unguided 2
+Buatlah program untuk melakukan pembalikan terhadap kalimat menggunakan stack dengan minimal 3 kata. Jelaskan output program dan source codenya beserta operasi/fungsi yang dibuat?
 ```C++
 #include <iostream>
 #include <conio.h>
