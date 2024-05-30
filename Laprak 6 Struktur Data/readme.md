@@ -4,8 +4,10 @@
 
 ## Dasar Teori
 <p align = "justify">
-Stack adalah struktur data yang mengikuti prinsip operasi Last In, First Out (LIFO), yang berarti elemen yang disisipkan terakhir akan menjadi elemen yang diambil pertama. Stack dapat didefinisikan sebagai kumpulan elemen data yang disimpan secara berurutan, dengan elemen terakhir yang disimpan sebagai elemen paling atas. Stack dapat digunakan dalam berbagai aplikasi, seperti evaluasi dan konversi ekspresi aritmatika, serta dalam implementasi algoritma seperti evaluasi ekspresi matematika dan konversi notasi infix ke postfix[1].
-</p>
+Stack adalah struktur data yang mengikuti prinsip LIFO.Artinya, elemen terakhir yang dimasukkan adalah elemen pertama yang diambil.
+Tumpukan dapat didefinisikan sebagai kumpulan item data yang disimpan secara berurutan, dengan item terakhir menjadi item paling atas.
+Stack dapat digunakan dalam berbagai aplikasi seperti mengevaluasi dan mengkonversi ekspresi matematika, dan juga dapat digunakan untuk mengimplementasikan algoritma seperti mengevaluasi ekspresi matematika dan mengkonversi dari notasi infiks ke notasi postfix [1].
+ 
 
 ## Guided 
 ```C++
@@ -127,7 +129,8 @@ int main()
 }
 ```
 ### Screenshot
-![1](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/0f0fc2b9-a59b-47fc-b9ab-1b6d5b9cbe78)
+![Screenshot (273)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/86171838-8e91-45ce-9779-1a14378c7ac6)
+
 
 
 
@@ -184,9 +187,11 @@ int main() {
 }
 
 ```
-### Screenshot
-![WhatsApp Image 2024-05-08 at 20 31 50_9e46fd69](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/d1d7551d-595b-4cc8-b2e9-1e9c1abaad23)
+### Screenshot Output
+![Screenshot (274)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/6f3fbd12-88c1-4735-a0dd-2a79c1b8a65c)
 
+## Deskripsi Program
+Program ini mengecek apakah sebuah string adalah palindrome menggunakan stack. Setelah menerima input string dari pengguna, program memasukkan setiap karakter string tersebut ke dalam stack. Kemudian, program mengambil karakter dari stack satu per satu untuk membentuk string terbalik. Terakhir, program membandingkan string asli dengan string terbalik dan menampilkan hasil apakah string tersebut adalah palindrome (sama jika dibaca dari depan atau belakang) atau bukan.
 
 
 ### 2. Buatlah program untuk melakukan pembalikan terhadap kalimat menggunakan stack dengan minimal 3 kata. Jelaskan output program dan source codenya beserta operasi/fungsi yang dibuat?
@@ -245,14 +250,18 @@ int main() { // Fungsi utama
 
 ```
 
-### Screenshot
-![WhatsApp Image 2024-05-08 at 20 10 06_f4c1c8d3](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/6f4752f7-62ae-4d56-90cc-e138bdae23c3)
+### Screenshot Output
+![Screenshot (275)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/edde2755-d636-4c3a-8270-84efeb20263b)
 
+### Deskripsi Program
+Program ini menggunakan stack untuk membalik urutan karakter dalam kalimat yang dimasukkan oleh pengguna. Dengan memanfaatkan operasi dasar stack (push dan pop), program membaca input, menambahkan setiap karakter ke stack, kemudian mengeluarkannya dalam urutan terbalik untuk menghasilkan kalimat yang telah dibalik.
 
 ## Kesimpulan 
 
 <p align = "Justify">
-Kesimpulan: Stack dalam konteks pemrograman adalah sebuah struktur data yang beroperasi dengan prinsip Last In, First Out (LIFO), yang memungkinkan elemen ditambahkan dan dihapus dari ujung yang disebut "top". Stack sangat penting dalam manajemen eksekusi fungsi atau subroutine, serta dalam parsing, manajemen memori, dan aplikasi lainnya. Dalam bahasa pemrograman C++, stack dapat diterapkan menggunakan array atau linked list, dan beberapa contoh implementasi stack dapat ditemukan dalam jurnal ilmiah dari tahun 2020 hingga 2024.
+Stack dalam konteksa pemrograman adalah  struktur data yang beroperasi berdasarkan prinsip LIFO, yang memungkinkan elemen ditambahkan dan dihapus di bagian akhir, yang disebut "atas".
+Stack penting untuk eksekusi fungsi dan subprogram, penguraian, manajemen memori, dan manajemen aplikasi lainnya.
+Dalam bahasa pemrograman C++, tumpukan dapat diimplementasikan menggunakan array atau daftar tertaut, dan beberapa contoh implementasi tumpukan telah dipublikasikan di jurnal akademik dari tahun 2020 hingga 2024.
 
 </p>
 
