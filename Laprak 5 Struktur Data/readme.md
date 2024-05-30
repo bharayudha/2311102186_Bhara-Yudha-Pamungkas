@@ -1,5 +1,5 @@
 # <h1 align="center"> Laporan Praktium Modul 5 Hash Table </h1>
-<p align="center"> Bhara Yudha PAmungkas <p>
+<p align="center"> Bhara Yudha aAmungkas <p>
 <p align="center"> 2311102186</p>
 
 ## Dasar Teori
@@ -237,7 +237,8 @@ return 0;
 
 ```
 #### Screenshot
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/aa0ade3c-cc34-4358-b0f6-27248d3c9dc6)
+![Screenshot (269)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/06b2e200-3134-46d4-8c19-bbedfa697675)
+
 
 
 
@@ -415,20 +416,23 @@ return 0;
 }
 ```
 #### ScreenShot
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/728dc200-8644-4b6a-a99f-b3b6e85d02df)
+![Screenshot (270)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/09f9df66-d0f9-482d-9130-6c056edb8917)
+
 
 
 
 
 ## Unguided 
 
+
+### Unguided 1
 Implementasikan hash table untuk menyimpan data mahasiswa. Setiap mahasiswa memiliki NIM dan nilai. Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan nilai. Dengan ketentuan :
 
-a. Setiap mahasiswa memiliki NIM dan nilai.
+A. Setiap mahasiswa memiliki NIM dan nilai.
 
-b. Program memiliki tampilan pilihan menu berisi poin C.
+B. Program memiliki tampilan pilihan menu berisi poin C.
 
-c. Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan rentang nilai (80 – 90).
+C. Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan rentang nilai (80 – 90).
 
 ```C++
 #include <iostream>
@@ -553,7 +557,12 @@ int main() {
 
 ```
 ### Screenshot 
-![image](https://github.com/KotaNamaki/Structure-Data-Assignment/assets/125143781/c6598ca8-29d6-4388-95a2-640db2754ec0)
+![Screenshot (272)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/a65d9b87-1fe1-415d-b883-9b1cfba2ff81)
+
+
+## Kesimpulan
+Hash table pada C++ adalah struktur data yang menyimpan pasangan kunci-nilai, memungkinkan operasi pencarian, penyisipan, dan penghapusan dengan efisiensi tinggi, biasanya dalam waktu O(1). Menggunakan fungsi hash untuk menghitung indeks kunci, hash table menangani tabrakan dengan chaining atau open addressing
+
 
 
 ## Daftar Pustaka
