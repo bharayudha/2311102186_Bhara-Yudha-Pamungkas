@@ -4,30 +4,7 @@
 
 ## Dasar Teori
 <p align="justify"> 
-Dalam konteks pemrograman, Tree (Pohon) dan Graphs (Graf) memiliki peran penting dalam berbagai aplikasi dan algoritma. Berikut adalah dasar teori dari Tree dan Graphs dalam pemrograman:
-  
-  Tree (Pohon):
-  
-  - Struktur Data Pohon: Pohon adalah struktur data hierarkis yang terdiri dari simpul (node) yang saling terhubung. Setiap simpul memiliki satu simpul induk (parent) dan satu atau lebih simpul anak (children) [1].
-  
-  - Representasi Pohon: Pohon sering direpresentasikan dalam bentuk struktur data berantai (linked structure) atau menggunakan array. Pohon biner adalah salah satu jenis pohon yang paling umum digunakan dalam pemrograman.
-  
-  - Operasi pada Pohon: Beberapa operasi umum pada pohon meliputi penelusuran pohon (traversal), pencarian nilai tertentu, penambahan simpul, penghapusan simpul, dan rotasi pohon [1].
-  
-  - Aplikasi dalam Pemrograman: Pohon digunakan dalam implementasi struktur data seperti pohon pencarian biner (binary search tree), pohon merah-hitam (red-black tree), pohon B (B-tree), dan pohon heap (heap tree) [1]. 
-  
-  - Mereka digunakan untuk penyimpanan data terstruktur dan operasi pencarian efisien [1].
-
-  Graphs: 
-  - Representasi Graf: Graf dapat direpresentasikan dalam pemrograman menggunakan matriks ketetanggaan (adjacency matrix) atau daftar ketetanggaan (adjacency list). Representasi ini memungkinkan penggambaran hubungan antara simpul-simpul dalam graf[1].
-    
-  - Algoritma Graf: Berbagai algoritma graf digunakan dalam pemrograman, seperti algoritma pencarian jalur terpendek (shortest path), algoritma pencarian terhubung (connected components), algoritma pencarian lintasan (pathfinding), dan algoritma alur maksimum (maximumflow)[1].
-    
-  - Jenis Graf: Graf berarah (directed graph) digunakan untuk merepresentasikan hubungan satu arah, sementara graf tak berarah (undirected graph) digunakan untuk hubungan dua arah[1].
-    
-  - Aplikasi dalam Pemrograman: Graf digunakan dalam berbagai aplikasi seperti pemodelan jaringan sosial, rute perjalanan, pemetaan sirkuit elektronik, optimisasi jaringan, dan analisis data[1].
-
-Dengan pemahaman dasar tentang Tree dan Graphs dalam pemrograman, pengembang dapat menggunakan struktur data dan algoritma yang sesuai untuk menyelesaikan berbagai masalah pemrograman yang melibatkan struktur hierarkis dan hubungan antar entitas [1].
+Tree dan Graph adalah dua struktur data fundamental dalam ilmu komputer. Tree adalah struktur data berhirarki yang terdiri dari simpul terhubung dimulai dari simpul khusus yang disebut root, sementara Graph adalah kumpulan simpul yang terhubung melalui edge. Dalam Tree, setiap simpul memiliki tepat satu simpul induk kecuali root, dan tree tidak boleh memiliki siklus. Graph dapat memiliki dua jenis, Directed Graph dan Undirected Graph, dan setiap simpul dalam graph dapat memiliki relasi dengan simpul lain melalui edge. Keduanya digunakan dalam berbagai aplikasi, seperti representasi hierarki data, algoritma pencarian, jaringan komputer, dan pemetaan.
 </p>
 
 ## Guided
@@ -78,7 +55,7 @@ int main(){
 }
 ```
 
-### Screenshot
+### Screenshot Output
 ![WhatsApp Image 2024-05-28 at 23 42 48_e3c9680c](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/e81b9c88-6eab-400d-bf2d-dbb40e0e39fd)
 
 
@@ -480,7 +457,7 @@ int main()
 }
 ```
 
-### Screenshot
+### Screenshot Output
 ![WhatsApp Image 2024-05-28 at 23 44 47_413b4dbe](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/ba5dde39-11f9-4693-a45b-3c4e88808453)
 ![WhatsApp Image 2024-05-28 at 23 44 47_a4b7087b](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/c35e1d14-bac8-482d-8693-3783fe0a290f)
 
@@ -575,9 +552,11 @@ int main()
     return 0;
 }
 ```
-### Screenshot 
-![Screenshot (260)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/b7d21f27-79b3-4cde-b2a5-3a0d90912127)
+### Screenshot Output
+![Screenshot (285)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/64adfb67-e872-41a8-a424-9d8fb07e5234)
 
+### Deskripsi Program
+Program ini merupakan sebuah implementasi sederhana untuk membuat tabel koneksi antar simpul (kota) dalam suatu jaringan. Program ini meminta pengguna untuk memasukkan jumlah simpul (kota), nama-nama simpul tersebut, dan bobot koneksi antar simpul. Bobot koneksi antar simpul diinputkan sebagai matriks bobot, yang mencakup bobot dari simpul ke dirinya sendiri, ke simpul lain, dan bobot mundur dari simpul lain ke simpul ini.
 
 
 ### Unguided 2
@@ -1024,28 +1003,18 @@ int main() {
 }
 ```
 
-### Screenshot
-![Screenshot (261)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/cbf1e5a4-430d-478e-9f55-38cc779b7c76)
+### Screenshot Output
+![Screenshot (286)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/1059382c-d219-4cb6-81ac-ce27b8895100)
 
+
+### Deskripsi Program
+Program ini adalah implementasi dari struktur data pohon biner menggunakan C++. Pada program ini, pengguna dapat membuat, memodifikasi, dan menghapus simpul dalam pohon biner. Setiap simpul memiliki data karakter dan dapat memiliki maksimal dua anak (kiri dan kanan). Program menyediakan berbagai fungsi, seperti membuat simpul baru, menambahkan simpul anak kiri atau kanan, memperbarui data simpul, mencari informasi tentang simpul tertentu (seperti orang tua, saudara kandung, atau anak-anaknya), melakukan penelusuran pohon (preOrder, inOrder, postOrder), menghapus seluruh pohon atau hanya subpohon tertentu, serta menghitung karakteristik pohon seperti ukuran dan tinggi.
 
 
 ## Kesimpulan 
 <p align="justify">
 
-  <strong> Tree: </strong>
-- Pohon adalah struktur data hierarki yang terdiri dari node yang saling berhubungan dengan node induk dan satu atau lebih node anak.
-– Pohon digunakan dalam pemrograman untuk representasi data terstruktur dan operasi pencarian yang efisien.
-– Jenis pohon yang umum digunakan meliputi pohon pencarian biner, pohon merah-hitam, pohon B, dan pohon heap.
-- Operasi pada pohon meliputi melintasi, mencari, menambah, menghapus, dan memutar.
-
-<strong> Graph: </strong> 
-- Graf adalah struktur data yang terdiri dari simpul-simpul yang dihubungkan oleh sisi-sisinya.
-– Diagram digunakan dalam pemrograman untuk mewakili hubungan antar entitas seperti jaringan sosial, rute perjalanan, dan sirkuit elektronik.
-– Algoritme grafik digunakan untuk berbagai tujuan, termasuk: Contoh: pencarian rute terpendek, pencarian rute koneksi, pencarian rute, laju aliran maksimum, dll.
-- Grafik dapat  berarah  atau tidak berarah  tergantung pada hubungan antar simpul.
-
-Pemahaman pohon dan diagram memungkinkan pengembang  memilih struktur data dan algoritma yang sesuai untuk menyelesaikan berbagai masalah pemrograman seperti hierarki data, hubungan antar entitas, dan optimalisasi algoritma.Pemahaman yang baik tentang konsep ini akan membantu Anda mengembangkan solusi pemrograman yang efisien dan efektif  [1].
-
+Tree dan Graph adalah dua struktur data yang penting dalam pemrograman dan representasi data. Pohon (Tree) merupakan struktur hierarkis yang terdiri dari simpul-simpul yang terhubung secara berjenjang, dimulai dari simpul akar (root) yang memiliki anak-anak di bawahnya. Setiap simpul dalam pohon memiliki anak-anak yang merupakan simpul-simpul lainnya. Graph, di sisi lain, adalah kumpulan simpul (node) yang terhubung oleh sisi (edge). Graph dapat digunakan untuk merepresentasikan berbagai jenis hubungan antara objek, seperti jaringan sosial, jaringan transportasi, atau jaringan komputer. Baik Tree maupun Graph memiliki beragam aplikasi dalam pemodelan data dan pemecahan masalah di berbagai bidang, termasuk pemrosesan bahasa alami, analisis jaringan, optimisasi rute, dan banyak lagi.
 </p>
 
 ## Daftar Pustaka
