@@ -4,14 +4,14 @@
 
 ## Dasar Teori
 <p align ="justify"> 
-Queue adalah struktur data yang mengikuti prinsip first-in-first-out (FIFO).
-Data memasuki antrian di satu ujung dan keluar di ujung lainnya. Artinya item pertama yang dimasukkan ke dalam antrian juga merupakan item pertama yang dihapus [1].
+Queue adalah struktur data yang mengikuti prinsip FIFO. Data masuk ke antrian di satu ujung dan keluar dari antrian di ujung yang lain. Artinya item pertama yang dimasukkan ke dalam antrian juga merupakan item pertama yang dihapus [1].
 
-Algoritma antrian banyak digunakan dalam berbagai aplikasi dan teknologi untuk mengatur antrian dan memproses data secara berurutan.
-Dalam konteks aplikasi pemesanan obat berbasis seluler di Apotek Aruba Farma Depok, penerapan algoritma antrian membantu meningkatkan efisiensi dan kualitas layanan dengan memastikan bahwa pasien menerima obat sesuai urutan antriannya [1].
+Algoritma antrian biasanya digunakan dalam berbagai aplikasi dan teknologi untuk mengatur antrian dan memproses data secara berurutan.
+Dalam konteks aplikasi pemesanan obat berbasis seluler di Apotek Aruba Farma Depok, penerapan algoritma antrian  meningkatkan efisiensi dan kualitas layanan dengan memastikan bahwa pasien menerima obat sesuai urutan antriannya [1}.
 
-Menggunakan antrian algoritma, Anda dapat mengelola sistem antrian  dengan lebih baik sehingga pasien  mengetahui ketersediaan obat dan nomor antriannya tanpa harus datang ke apotek terlebih dahulu.
-Hal ini  mengurangi waktu tunggu pasien dan meningkatkan pengalaman pelayanan di apotek [1].
+Antrian algoritmik memungkinkan Anda  mengelola sistem antrian dengan lebih baik sehingga pasien mengetahui ketersediaan obat dan nomor antriannya tanpa harus datang ke apotek terlebih dahulu.
+Hal ini mengurangi waktu tunggu pasien dan meningkatkan pengalaman pelayanan di apotek [1].
+
 </p>
 
 
