@@ -236,7 +236,7 @@ return 0;
 }
 
 ```
-#### Screenshot
+#### Screenshot Output
 ![Screenshot (269)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/06b2e200-3134-46d4-8c19-bbedfa697675)
 
 
@@ -415,7 +415,7 @@ return 0;
 
 }
 ```
-#### ScreenShot
+#### Screenshot Output
 ![Screenshot (270)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/09f9df66-d0f9-482d-9130-6c056edb8917)
 
 
@@ -556,8 +556,12 @@ int main() {
 }
 
 ```
-### Screenshot 
+### Screenshot Output
 ![Screenshot (272)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/a65d9b87-1fe1-415d-b883-9b1cfba2ff81)
+
+### Deskripsi Program
+Program ini mengilustrasikan penggunaan hash table dalam menyimpan dan mengelola data mahasiswa. Pengguna dapat dengan mudah menambahkan, menghapus, dan mencari data mahasiswa berdasarkan NIM atau rentang nilai. Implementasi hash table memungkinkan pencarian data dengan waktu yang lebih efisien daripada pencarian linear dalam struktur data seperti array atau linked list. Dengan demikian, program ini memberikan contoh konkret dari penggunaan struktur data hash table dalam pemrograman C++.
+
 
 
 ## Kesimpulan
