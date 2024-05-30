@@ -139,7 +139,8 @@ int main()
 
 
 ### Screenshot
-![Screenshot (252)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/f1f686fd-7ef4-4cb7-8336-5ba79048d900)
+![Screenshot (276)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/ee6b7807-2f8a-417c-b4b6-8fbcfd6c038f)
+
 
 
 ## Unguided
@@ -239,7 +240,10 @@ int main() {
 ```
 
 ### Screenshot
-![Screenshot (253)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/211b112b-ee49-42e6-ad82-66a4ff911acf)
+![Uploading Screenshot (277).png…]()
+
+### Deskripsi Program
+Program ini menunjukkan bagaimana linked list dapat digunakan untuk mengelola antrian dengan efisien tanpa batasan ukuran maksimum. Fungsi-fungsi yang diimplementasikan memudahkan pengelolaan antrian seperti menambah, menghapus, menghitung elemen, membersihkan, dan menampilkan isi antrian. Program ini bermanfaat untuk memahami dasar-dasar operasi antrian dan manipulasi data menggunakan linked list.
 
 
 
@@ -343,8 +347,8 @@ void viewQueue()
 
 int main()
 {
-    enqueueAntrian("Andi", "123456789");
-    enqueueAntrian("Budi", "987654321");
+    enqueueAntrian("Andi", "2311102186");
+    enqueueAntrian("Budi", "2311102184");
     viewQueue();
     dequeueAntrian();
     viewQueue();
@@ -352,20 +356,17 @@ int main()
 }
 ```
 ### Screenshot
-![Screenshot (254)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/ac51395a-3fe3-43ec-8a68-2c0148884c63)
+![Screenshot (278)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/b30649d3-8f5d-4594-91dc-5e49e6d3c3a2)
+
+### Deskripsi Program
+Program ini menunjukkan cara mengelola antrian mahasiswa menggunakan linked list, dengan operasi dasar seperti menambah elemen (enqueue), menghapus elemen (dequeue), menghitung elemen, membersihkan antrian, dan menampilkan isi antrian. Linked list memungkinkan antrian ini memiliki fleksibilitas tanpa batasan maksimum jumlah elemen, serta efisiensi dalam penambahan dan penghapusan elemen.
 
 
 ## Kesimpulan 
 <p align = "justify">
-Sehubungan dengan penerapan algoritma antrian pada aplikasi pemesanan obat berbasis mobile  Apotek Aruba Farma Depok, maka dapat diperhatikan hal-hal sebagai berikut
+Queue merupakan salah satu struktur data yang digunakan untuk menyimpan sekumpulan elemen dengan prinsip FIFO (First In, First Out), mirip dengan antrian dalam kehidupan sehari-hari di mana elemen yang pertama dimasukkan ke dalam queue akan menjadi yang pertama pula untuk dikeluarkan.
 
-1. **Efisiensi Pelayanan**: Penggunaan algoritma antrian berkontribusi terhadap: Antrian pasien yang berurutan meningkatkan efisiensi layanan, meminimalkan waktu tunggu, dan mempercepat proses pemesanan obat [1].
-
-2. **Ketersediaan Obat**: Pasien dapat dengan mudah mengecek ketersediaan obat yang dibutuhkan melalui aplikasi mobile tanpa harus datang langsung ke apotek sehingga  proses pemesanan dan pengambilan obat akan menjadi lebih mudah [1].
-
-3. **Peningkatan pengalaman pasien**: Dengan  aplikasi seluler berbasis antrian , pasien merasakan dukungan dan layanan yang lebih  baik, sehingga meningkatkan kualitas layanan di Apotek Aruba Farma Depok [1].
-
-Oleh karena itu, penerapan algoritma antrian pada aplikasi pemesanan obat secara mobile memberikan manfaat yang signifikan dalam meningkatkan efisiensi, ketersediaan obat, dan pengalaman pasien dalam memanfaatkan layanan obat.
+Dengan memahami konsep dasar dan penggunaan queue dalam bahasa C++, pengembang dapat membuat kode yang lebih efisien dan mudah dipahami saat bekerja dengan struktur data queue dalam pengembangan perangkat lunak.
 </p>
 
 ## Daftar Pustaka
