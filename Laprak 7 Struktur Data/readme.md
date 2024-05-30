@@ -240,7 +240,8 @@ int main() {
 ```
 
 ### Screenshot
-![Uploading Screenshot (277).png…]()
+![Screenshot (277)](https://github.com/bharayudha/Struktur-Data-Assignment/assets/161665640/a9578e26-efd8-4de0-ae01-986f2d4f404e)
+
 
 ### Deskripsi Program
 Program ini menunjukkan bagaimana linked list dapat digunakan untuk mengelola antrian dengan efisien tanpa batasan ukuran maksimum. Fungsi-fungsi yang diimplementasikan memudahkan pengelolaan antrian seperti menambah, menghapus, menghitung elemen, membersihkan, dan menampilkan isi antrian. Program ini bermanfaat untuk memahami dasar-dasar operasi antrian dan manipulasi data menggunakan linked list.
