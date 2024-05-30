@@ -96,8 +96,8 @@ void viewQueue()
 
 int main()
 {
-    enqueueAntrian("Andi", "123456789");
-    enqueueAntrian("Budi", "987654321");
+    enqueueAntrian("Andi", "2311102186");
+    enqueueAntrian("Budi", "2311102184");
     viewQueue();
     dequeueAntrian();
     viewQueue();
